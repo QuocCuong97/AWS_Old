@@ -1,0 +1,13 @@
+# AWS API
+- **AWS API** cho phép ứng dụng của bạn chạy trên Amazon EC2 có thể truy vấn tới tất cả các dịch vụ khác của Amazon Web Services(AWS) mà không phải copy lại credentials. Chúng có các ưu điểm như:
+    - Các chứng chỉ tạm thời sẽ được copy thông qua metadata ( Temporary (STS) credentials pushed securely to Amazon EC2 instance via metadata).
+    - Automatically rotated every minute ( configurable).
+    - Tất cả các bộ SDK đều dựa trên một bộ API.
+- Các bộ SDK mà AWS hiện tại đang hỗ trợ là:
+    - Android
+    - iOS
+    - Java
+    - .Net
+    - Node.js
+    - Python
+    - PHP Ruby

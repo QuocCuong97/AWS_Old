@@ -1,4 +1,22 @@
-# Các Service chính trong AWS
+# AWS Services
+## **1) Tổng quan**
+- Amazon Web Services cung cấp một tập hợp các dịch vụ như : phân tích, tính toán, lưu trữ, phân tích dữ liệu, ứng dụng và triển khai hệ thống trên cloud, để giúp cho các doanh nghiệp phát triển nhanh hơn, tiết kiệm chi phí vận hành cũng như nâng cao khả năng mở rộng hệ thống.
+- Dịch vụ được chính thức đưa ra thị trường vào năm 2006. Nhanh chóng đạt được mốc 180.000 lập trình viên đăng ký sử dụng vào T6/2017.
+- Cùng với sự phát triển của Cloud Computing, trong những năm gần đây AWS đạt được mức tăng trưởng ấn tượng, và là nhà cung cấp cloud computing có doanh thu lớn nhất thể giúp hiện nay ước tính 3,8 tỷ đô la Mỹ trong năm 2013.
+- Hiện tại AWS phục vụ hàng trăm, hàng ngàn khách hàng trên 190 quốc gia ở Bắc Mỹ, Trung Mỹ, Châu Âu, Trung Đông, châu Phi và châu Á Thái Bình Dương,..
+## **2) AWS Core Infrastructure & Services**
+
+<p align=center><img src=https://i.imgur.com/q1mCYh2.png width=60%></p>
+
+- Khi nhìn vào tập hợp các services của AWS, chúng ta có thể thấy hầu như tất cả những gì cần thiết về mặt cơ sở hạ tầng trong một hệ thống trên data center truyền thống đều có thành phần tương ứng trên AWS.
+## **3) AWS Platform**
+<p align=center><img src=https://i.imgur.com/bQbxO57.png width=60%></p>
+
+- AWS cung cấp dịch vụ đến hàng triệu khách hàng ở trên 190 nước trên thế giới, AWS vẫn đang mở rộng global infrastructure để cung cấp cho khách hàng khả năng tương tác dữ liệu nhanh hơn, lower latency, higher throughput, và đảm bảo khách hàng có thể lựa chọn đặt dữ liệu tại vùng họ muốn. Ở thời điểm tháng 4 năm 2015, AWS có 11 region, hơn 28 avabilty zone và hơn 50 echolocation trên toàn thế giới.
+- Foundation Services ( Các dịch vụ cơ bản) là tập hợp các dịch vụ nền tảng và tập trung vào 4 mảng chính : Tính toán ( Compute ) , lưu trữ ( storage ) , Networking và Cơ sở dữ liệu (Database).
+- Application Services ( Các dịch vụ ứng dụng ) là các dịch vụ ứng dụng, hệ sinh thái các services của AWS phục vụ cho các ứng dụng bao gồm các phần chính : truyền tải nội dung ( Content Delivery), Networking, Tìm kiếm ( Searching), tính toán phân tán(Distributed computing), Library and SDK.
+- Deployment & Management ( Triển khai và quản lý)  là tập hợp đầy đủ các dịch vụ cho việc triển khai và quản lý ứng dụng bao gồm các phần chính như giao diện web, triển khai và quản trị, định dạng và truy cập, điều khiển .
+## **4) Các service chính trong AWS**
 
 <p align=center><img src=https://i.imgur.com/3vciHF7.png width=50%></p>
 
