@@ -1,5 +1,4 @@
 # Đăng ký tài khoản miễn phí trên Amazon Web Services (AWS)
-## **1) Đăng nhập vào nền tảng AWS**
 - **B1 :** Truy cập trang web https://aws.amazon.com .
 - **B2 :** Chọn ***Create an AWS Account*** :
 
