@@ -1,1 +1,1 @@
-# AWS
+# Kiến thức cơ bản về AWS <img src=https://i.imgur.com/OasFJu9.png width=30% align=right>

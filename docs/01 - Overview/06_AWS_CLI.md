@@ -1,6 +1,9 @@
 # Cài đặt AWS CLI
 ## **1) Giới thiệu**
-- **AWS CLI** là một chương trình lệnh sử dụng cho các quản trị viên tương tác với dịch vụ AWS từ máy chủ bất kì. **AWS CLI** hỗ trợ cài đặt trên Windows, Linux và MacOS.
+- **AWS Command Line Interface *(AWS CLI)*** là một chương trình lệnh sử dụng cho các quản trị viên tương tác với dịch vụ AWS từ máy chủ bất kì. **AWS CLI** hỗ trợ cài đặt trên Windows, Linux và MacOS.
+- **AWS CLI** có hai phiên bản : 
+    - **AWS CLI v1**: là bản AWS CLI nguyên bản đầu tiên và vẫn sẽ được AWS hỗ trợ.
+    - **AWS CLI v2**: là bản AWS CLI mới nhất hỗ trợ tất cả các tính năng mới nhất của AWS. Một số tính năng có ở phiên bản 2 không được hỗ trợ tại phiên bản 1 và bạn cần phải nâng cấp phiên bản để sử dụng các tính năng đó.
 ## **2) Cài đặt AWS CLI**
 ### **2.1) Cài đặt trên Ubuntu 20.04**
 - **B1 :** Cài đặt **Python** :
@@ -23,7 +26,15 @@
     ```
     $ aws --version
     ```
-    <img src=https://i.imgur.com/A8kaMrk.png>
+    <img src=https://i.imgur.com/QIF2Ury.png>
+### **2.2) Cài đặt trên Windows**
+- **B1 :** Download bộ cài **AWS CLI** mới nhất tại https://awscli.amazonaws.com/AWSCLIV2.msi
+- **B2 :** Chạy bộ cài MSI vừa tải và thực hiện theo các hướng dẫn trên màn hình.
+- **B3 :** Sử dụng lệnh sau để kiểm tra kết quả cài đặt trong Terminal :
+    ```
+    > aws --version
+    ```
+    <img src="https://i.imgur.com/eAup68t.png">
 ## **3) Cấu hình AWS CLI**
 - Trước khi bắt đầu sử dụng công cụ **AWS CLI** để tương tác và quản trị với hệ thống dịch vụ **AWS**, cần cấu hình các thông tin bao gồm sau để chứng thực người dùng được quyền tương tác với tài khoản **AWS** :
     - AWS Access Key ID
